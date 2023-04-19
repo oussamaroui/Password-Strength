@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin:80px auto 0;
+    width: 340px;
+    height: 340px;
+    background-color: #111;
+    border-radius: 20px;
+    display: flex; flex-direction: column;
+}
+span{
+    height: 35px; width: 90%;
+    margin: 0px auto 15px;
+    background-color: #222;
+    display: flex; justify-content: space-around; align-items: center;
+    border-radius: 10px;
+    padding: 0px 8px;
+}
+#password{
+    height: 35px; width: 90%;
+    background-color: #222;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 16px;
+}
+.bar{
+    margin: 0px auto 7px;
+    width: 90%; height: 5px;
+}
+#strengthBar{
+
+    height: 100%; width: 0%;
+    border-radius: 50px;
+    transition: 1s;
+}
+#rules p{
+    margin-left: 18px;
+    font-size: 12px;
+    line-height: 8px;
+}
+#signup{
+    font-size: 16px;
+    width: 95%; height: 40px;
+    background-color: #009800;
+    border-radius: 10px;
+    margin: 8px auto 0px ;
+    display: flex; justify-content:center; align-items: center;
+    opacity: .4;
+}

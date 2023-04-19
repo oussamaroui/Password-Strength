@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Secular+One&family=Varela+Round&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="passStrength.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="font-size: 24px;letter-spacing: 1px; text-align: center;">Password  Strength</h1>
+        <label style="margin:0px 0px 8px 18px; font-size: 12px;">Password :</label>
+        <span>
+            <input type="password" id="password" onkeyup="testPasswordStrength()" />
+            <img style="width:20px; height: 20px;" src="https://img.icons8.com/material-rounded/900/ffffff/visible.png"
+                onclick="showPass()">
+        </span>
+        <div class="bar">
+            <div id="strengthBar"></div>
+        </div>
+        <div id="rules" style="margin: 6px 0px;">
+            <p>+ 8 Letters</p>
+            <p>Lowercase</p>
+            <p>Uppercase</p>
+            <p>Numbers</p>
+            <p>Special Character</p>
+        </div>
+        <div id="signup">Sign Up</div>
+    </div>
+
+    <script src="passStrength.js"></script>
+</body>
+
+</html>
